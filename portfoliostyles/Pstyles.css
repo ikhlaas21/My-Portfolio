@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header and footer */
+header{
+    min-width: 100%;
+    height: 115px;
+    background-color: maroon;
+    color:blanchedalmond;
+}
+footer {
+    min-width: 100%;
+    height: 115px;
+    background-color: maroon;
+    color:blanchedalmond;
+}
+main {
+    min-height: 1000vh;
+}
+/*header*/
+header, footer {
+    min-width: 100%;
+    height: 150px;
+
+}
+.container{
+    
+    height: vh;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    position: fixed;
+
+}
+#i1{
+    color: blanchedalmond;
+    background-color:#800000;
+    margin-top: 130px;
+
+}#i2{
+    color: blanchedalmond;
+    background-color:blanchedalmond;
+}
+#i3{
+    color: blanchedalmond;
+    background-color: maroon;
+}
+#i4{   
+    background-color:blanchedalmond;
+}
+.items {
+width: 100px;
+height: 80px;
+border-radius: 10px;
+margin-left: 15px;
+text-align: center;
+box-shadow: 2vw 0vw 4vw rgb(80, 1, 1);
+font-size: large;
+}
+.items:hover{
+    width:180px;
+    height: 118px; 
+}
+h2{
+    text-align: center;
+
+}
+#blanch{
+    color: blanchedalmond;
+}
+#maroon{
+    color: maroon;
+}
+#menu div #i1{
+    position: relative;
+    top: 0;
+}
+.sub1{
+    display: none;
+    position: absolute;
+    left: 15px
+
+}
+#menu div #i1:hover .sub1{
+    display: block;
+    padding: 10px;
+}
+#menu div #i2{
+    position: relative;
+    top: 0;
+}
+.sub2{
+    display: none;
+    position: absolute;
+    left: 15px
+
+}
+#menu div #i2:hover .sub2{
+    display: block;
+    padding: 10px;
+    color: #800000;
+}
+#menu div #i4{
+    position: relative;
+    top: 0;
+}
+.sub4{
+    display: none;
+    position: absolute;
+    left: 15px
+
+}
+#menu div #i4:hover .sub4{
+    display: block;
+    padding: 10px;
+    color: #800000;
+}
+#pfp{
+    display: flex;
+    flex-direction:column;
+    position: absolute;
+    right: 80px;
+    top: 60px;
+    box-shadow: 2vw 1vw 4vw 0.4vw rgb(80, 1, 1);
+    
+}
+#card{
+    width: 150px;
+    height: 200px;
+    position: relative;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+#pfp:hover #card {
+    transform: rotateY(180deg);
+}
+#front, #back {
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+}
+#back{
+    transform: rotateY(180deg);
+    background-image:url("../golden-clouds-duncan1890.jpg");
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#para{
+    align-self: center;
+    font-size: 20px;
+}
+.clouds{
+    background-image: url("../golden-clouds-duncan1890.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+}
+#Landing{
+    text-align: center;
+    font-size: xx-large;
+    border: 2px solid rgb(7, 7, 7);
+    width: 50%;
+    margin: auto;
+    box-shadow: 1vw 1vw 4vw rgb(80, 1, 1);
+    border-radius: 0%;
+    border-style:inherit;
+    padding: 75px;
+    
+}
+#aspire{
+    font-size: xx-large;
+}
+#ikhlaas{
+    font-size: 200%;
+}
+
+/* navigation element */
+/*nav {
+    margin-left: 550px;
+}
+ul {
+    display: inline-flex;
+}
+/* list */
+/*li {
+    list-style: none;
+    padding-right: 10px;
+}/*
+*/
+
+#h1about{
+    font-size: 80px;
+    height: 120px;
+    border: 2px solid maroon;
+    background-color: maroon;
+    color:blanchedalmond ;
+}
+#h1about{
+    /* padding-left: 130px; */
+    padding-top: 30px;
+    text-align: center;
+}
+.ocean{
+    background: url("../ocean2.jpg") no-repeat center center/cover;
+    height: 1000px;
+}
+#h2aboutme{
+    font-size: 50px;
+    border: 5px solid black;
+    box-shadow: 1vw 1vw 4vw rgb(101, 162, 218);
+    margin: 200px 120px 40px 120px;
+    border-radius: 0%;
+    border-style:inherit;
+    width: 250px;
+    
+}
+.about-me-con{
+    display: flex;
+    margin-left: 10%;
+}
+#testimonial{
+    font-size: 50px;
+    border: 5px solid black;
+    box-shadow: 1vw 1vw 4vw rgb(101, 162, 218);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 0%;
+    border-style:inherit;
+    width: 250px;
+}
+#ptest{
+    text-align:center ;
+}
+.navplace{
+    margin-top: 40px;
+}
+
+#h1resume{
+    font-size: 80px;
+    height: 120px;
+    border: 2px solid maroon;
+    background-color: maroon;
+    color:blanchedalmond ;
+}
+#h1resume{
+    /* padding-left: 130px; */
+    padding-top: 30px;
+    text-align: center
+}
+.royalblue{
+    background-image: url("../Classic_RoyalBlue_Clouds_main.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 950px;
+    width: auto;
+}
+.edu-work{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    height: 50%;
+    text-align: center;
+    margin-top: 150px;
+    color: blanchedalmond;
+    font-size: 38px;
+    margin-left: 50px;
+   
+}
+#college{
+    font-size: 35px;
+}
+#paracollege{
+    font-size: 20px;
+}
+#edu{
+    border: 5px solid black;
+    box-shadow: 1vw 1vw 4vw rgb(101, 162, 218);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 0%;
+    border-style:inherit;
+    width: 310px;
+}
+#work{
+    border: 5px solid black;
+    box-shadow: 1vw 1vw 4vw rgb(101, 162, 218);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 0%;
+    border-style:inherit;
+    width: 460px;
+}
+
+
