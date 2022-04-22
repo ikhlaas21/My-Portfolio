@@ -2,7 +2,68 @@
     margin: 0;
     padding: 0;
 }
+#MDP{
+    font-size: 50px;
+    left: 250px;
+    top: 50px
+}
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 
+
+.content {
+display: flex;
+}
+
+.content {
+  position: relative;
+}
+
+.content h1 {
+  color:rgb(12, 12, 12);
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.content h1:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px blanchedalmond;
+}
+
+.content h1:nth-child(2) {
+  color:blanchedalmond;
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
+}
 /* header and footer */
 header{
     min-width: 100%;
@@ -34,10 +95,15 @@ header, footer {
     position: fixed;
 
 }
+#i0{
+    color: blanchedalmond;
+    background-color:blanchedalmond;
+    margin-top:  120px;
+}
+
 #i1{
     color: blanchedalmond;
     background-color:#800000;
-    margin-top: 130px;
 
 }#i2{
     color: blanchedalmond;
@@ -415,11 +481,15 @@ the rotate() function from transform
     width: 300px;
     height: 450px;
 }
-.fa{
-    font-size: 50px;
+.fa-brands{
+    font-size: 150px;
+    color: blanchedalmond;
 }
 .fa:visited{
     font-size: 50px;
+}
+#netlify{
+    margin-top: 50px
 }
 
 
