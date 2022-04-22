@@ -274,7 +274,7 @@ ul {
     width: 80%;
     height: 50%;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 35px;
     color: blanchedalmond;
     font-size: 38px;
     margin-left: 50px;
@@ -320,6 +320,105 @@ ul {
     padding-left: 30px;
     padding-right: 30px;
     margin-top: 15px;
+}
+#GIF{
+    width: 200px;
+    height: 180px;
+    margin-top: 20px;
+    border: solid maroon 5px;
+}
+#h1projects{
+    font-size: 80px;
+    height: 120px;
+    border: 2px solid maroon;
+    background-color: maroon;
+    color:blanchedalmond ;
+}
+#h1projects{
+    /* padding-left: 130px; */
+    padding-top: 30px;
+    text-align: center
+}
+.Nature{
+    background-image: url("../leafgreen.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 950px;
+    width: auto;
+}
+#wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    
+    
+}
+.cardcontainer {
+    width: 300px;
+    height: 450px;
+    margin: 20px auto;
+    
+}
+/*
+- Transition do provide ways to control the speed of our animation when changing CSS properties.
+- Transform-style: This property will verify
+if the children of an element are positioned
+in the 3d space or 2d.
+The value: preserve-3d state that the children
+of an element should be placed in the 3d - space
+*/
+#card2{
+    width: 300px;
+    height: 450px;
+    position: relative;
+    text-align: center;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+    
+}
+/* Will focus on horizontal flip card */
+/*
+It easy to rotate an html element by using
+the rotate() function from transform
+*/
+.cardcontainer:hover #card2{
+    transform: rotateY(180deg);
+}
+/* Positioning card front and card back*/
+#front2, #back2 {
+    position: absolute;
+    width: 300px;
+    height: 450px; 
+    /* Have to cover most of the browsers
+    Defines whether or not the back face of an element should be visible when facing the
+    user
+    */
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+}
+#front2{
+    background-color:#800000;
+    color: blanchedalmond;
+    
+}
+#back2{
+    background-color:maroon;
+    color:blanchedalmond;
+    transform: rotateY(180deg);
+}
+#calcsize{
+    width: 300px;
+    height: 450px;
+}
+.fa{
+    font-size: 50px;
+}
+.fa:visited{
+    font-size: 50px;
 }
 
 
