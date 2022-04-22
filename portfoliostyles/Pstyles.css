@@ -78,7 +78,7 @@ footer {
     color:blanchedalmond;
 }
 main {
-    min-height: 1000vh;
+    min-height: 600vh;
 }
 /*header*/
 header, footer {
@@ -443,8 +443,7 @@ of an element should be placed in the 3d - space
     text-align: center;
     transition: transform 0.5s;
     transform-style: preserve-3d;
-    border: solid 2px maroon;
-    border-style: inherit;
+    border: solid 4px blanchedalmond;
 }
 /* Will focus on horizontal flip card */
 /*
@@ -490,6 +489,25 @@ the rotate() function from transform
 }
 #netlify{
     margin-top: 50px
+}
+#h1contact{
+    font-size: 80px;
+    height: 120px;
+    border: 2px solid maroon;
+    background-color: maroon;
+    color:blanchedalmond ;
+}
+#h1contact{
+    /* padding-left: 130px; */
+    padding-top: 30px;
+    text-align: center
+}
+.silverwater{
+    background-image: url("../water-drops-on-silver.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 950px;
+    width: auto;
 }
 
 
