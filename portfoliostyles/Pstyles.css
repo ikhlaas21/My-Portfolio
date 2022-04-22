@@ -377,7 +377,8 @@ of an element should be placed in the 3d - space
     text-align: center;
     transition: transform 0.5s;
     transform-style: preserve-3d;
-    
+    border: solid 2px maroon;
+    border-style: inherit;
 }
 /* Will focus on horizontal flip card */
 /*
